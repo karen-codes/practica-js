@@ -18,8 +18,16 @@ function imprimirVariables(){
 }
 //Funcion para mostar un cuadro de dialogo emergente
 function arreglos(){
-    let frutas = ['manzana', 'uva' ,'pera'];
+    //Arreglos
+    let frutas = ['manzana', 'pera' ,'uva'];
+    //bucles
     for (let f of frutas){
         console.log(f)
+    }
+    //condicionales
+    if (frutas [1]==='pera'){
+        console.log("La segunda fruta es una pera");
+    }else{
+        console.log('No es una pera');
     }
 }
